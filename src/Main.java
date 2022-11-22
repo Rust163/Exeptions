@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        boolean accordance = Data.valid("admin!", "admin","admin");
+        if(accordance) {
+            System.out.println("Data valid!");
+        } else {
+            System.out.println("Data invalid!");
+        }
     }
+
 }
