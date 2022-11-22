@@ -1,6 +1,5 @@
 public class Data {
     private static final String VALID_CHARACTERS = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890_";
-
     private Data() {
     }
 
